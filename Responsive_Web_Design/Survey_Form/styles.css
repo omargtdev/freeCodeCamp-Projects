@@ -1,0 +1,102 @@
+:root {
+	--color-light-dark: rgba(0, 0, 0, .85);
+	--color-white: #ffffff;
+	--color-green: #009f00;
+	--color--light-green: #00ff00;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--color-white);
+	background-image: url('https://www.rswebsols.com/wp-content/uploads/2021/08/software-developers-team-building-business-coworkers.jpg');
+	margin: 0;
+}
+
+#container {
+	background-color: var(--color-light-dark);
+}
+
+header {
+	padding-top: 20px;
+	text-align: center;
+}
+
+#title {
+	margin-top: 0;
+}
+
+#description {
+	font-style: italic;
+}
+
+#survey-form {
+	width: 50%;
+	margin: auto;
+	min-width: 300px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 40px 30px;
+	background-color: var(--color-light-dark);
+	border-radius: 5px;
+}
+
+fieldset {
+	margin-bottom: 20px;
+}
+
+label, input,select {
+	display: inline-block;
+	padding: 5px;
+	font-size: 18px;
+}
+
+label, select {
+	width: 100%;
+}
+
+label {
+	margin-bottom: 5px;
+}
+
+input {
+	width: 98%;
+}
+
+.input-group {
+	margin-bottom: 20px;
+}
+
+.radio-option input,
+.checkbox-option input {
+	width: auto;
+	vertical-align: top;
+	transform: scale(1.4);
+}
+
+select {
+	background-color: var(--color-white);
+}
+
+#comments {
+	width: 98%;
+}
+
+.input-group:last-child {
+	margin-top: -10px;
+}
+
+#submit {
+	display: block;
+	margin: auto;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 20px;
+	color: var(--color-white);
+	background-color: var(--color-green);
+	border: none;
+}
+
+#submit:hover {
+	background-color: var(--color--light-green);
+	cursor: pointer;
+}
